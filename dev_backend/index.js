@@ -14,7 +14,7 @@ app.get("/",(request,response)=>{
     // response.send("<h1>Abhyudaya chutiya</h1>")
     response.sendFile(__dirname+'/index.html')
 })
-app.listen(5000,()=>{
+app.listen(4000,()=>{
     console.log(`Server is running on port 5000`);
 })
 app.get("/baby",(request,response)=>{
