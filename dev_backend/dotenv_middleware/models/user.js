@@ -1,6 +1,8 @@
 const user=[{
     id:'2202',
-    gmail:'abhyudaya',
+    email:'abhyudaya@gmail.com',
     pass:'1234',
     
 }]
+
+module.exports={user}
