@@ -31,7 +31,10 @@ async function createuser(newuser){
 
 
 }
-createuser({name:'Dubey',
-emailid:'@gamial',password:'1234' })
+async function finduser(){
+    const users=await Addmi.find()
+    console.log(users)
+}
 
+finduser()
 
